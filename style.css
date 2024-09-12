@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.pricing {
+  max-width: 1280px;
+  margin: auto;
+}
+.pricing header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 150px;
+  background: #1c1e53;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+.pricing header .logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+.pricing header .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.pricing header .nav-links a {
+  color: #BBBBCB;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+.pricing header .nav-links a:hover {
+  color: #fff;
+}
+.pricing header .nav-links button {
+  padding: 14px 35px;
+  border-radius: 25px;
+  background: #1c1e53;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 1037px) {
+  .pricing header {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
